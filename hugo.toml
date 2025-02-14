@@ -50,6 +50,10 @@ url = "https://github.com/kpechenenko"
 name = "telegram"
 url = "https://t.me/kpechenenko_blog"
 
+[[params.social]]
+#name = "mailgun"
+name = "gmail"
+url = "mailto:kpechenenko@yandex.ru"
 
 # Main menu pages
 [[params.menu]]
