@@ -1,6 +1,6 @@
 baseURL = 'https://kpechenenko.github.io/'
 languageCode = 'ru'
-title = "Константин Печененко"
+title = "Технический блог"
 theme = "typo"
 
 [taxonomies]
@@ -8,7 +8,7 @@ theme = "typo"
 
 [params]
 # Meta description
-description = "Блог о разработке ПО."
+description = "Технический блог. Разработка, собесы, Golang, бэкенд, распределенные системы."
 
 # footer
 showFooter = true
