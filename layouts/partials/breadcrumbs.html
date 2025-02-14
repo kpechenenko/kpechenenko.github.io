@@ -1,0 +1,9 @@
+{{ if .Site.Params.breadcrumbs }}
+<div class="breadcrumbs">
+    {{ range .Ancestors.Reverse }}
+    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+    <span class="breadcrumbs-separator"> > </span>
+    {{ end }}
+    <a class="breadcrumbs-current" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+</div>
+{{ end }}

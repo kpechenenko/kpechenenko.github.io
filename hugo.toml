@@ -1,0 +1,81 @@
+baseURL = 'https://kpechenenko.github.io/'
+languageCode = 'ru'
+title = "Константин Печененко"
+theme = "typo"
+
+[taxonomies]
+# tag = 'tags'
+
+[params]
+# Meta description
+description = "Блог о разработке ПО."
+
+# footer
+showFooter = true
+footerContent = "© Константин Печененко"
+
+# single page
+singleDateFormat = '02.01.2006'
+
+
+# Appearance settings
+theme = 'dark'
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content is markdown
+# homeIntroTitle = 'здарова'
+homeIntroContent = "Блог о разработке ПО."
+
+# Collection to display on home
+homeCollectionTitle = 'Посты'
+homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = false
+listDateFormat = '02.01.2006'
+
+# Breadcrumbs
+
+breadcrumbs = false
+
+# Social icons
+
+[[params.social]]
+name = "github"
+url = "https://github.com/kpechenenko"
+
+[[params.social]]
+name = "telegram"
+url = "https://t.me/kpechenenko"
+
+
+# Main menu pages
+[[params.menu]]
+name = "главная"
+url = "/"
+
+[[params.menu]]
+name = "посты"
+url = "/posts"
+
+[[params.menu]]
+name = "обо мне"
+url = "/about"
+
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+style = 'gruvbox'
+
+
+# Giscus comments
+#[params.giscus]
+#enable = false
+#repo = "user/repo"
+#repoid = "repoId"
+#category = "General"
+#categoryid = "categoryId"
+#mapping = "pathname"
+#theme = "preferred_color_scheme"
