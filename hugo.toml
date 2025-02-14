@@ -25,7 +25,7 @@ hideHeader = false
 
 # Intro on main page, content is markdown
 # homeIntroTitle = 'здарова'
-homeIntroContent = "Блог о разработке ПО."
+homeIntroContent = "Разработка, собесы, Golang, бэкенд, распределенные системы."
 
 # Collection to display on home
 homeCollectionTitle = 'Посты'
