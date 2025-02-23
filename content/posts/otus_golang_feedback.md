@@ -1,6 +1,6 @@
 +++
 date = '2025-02-23T02:22:47+07:00'
-title = 'История обучения на курсе Go разработчика в otus'
+title = 'История обучения в otus на курсе "Golang Developer. Professional"'
 showTags = false
 hideBackToTop = true
 +++
