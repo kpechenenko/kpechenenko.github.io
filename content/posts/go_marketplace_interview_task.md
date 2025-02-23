@@ -27,7 +27,7 @@ import (
 
 func main() {
 	start := time.Now()
-	m, err := Do(context.Background(), []User{{"Паша"}, {"Яша"}, {"Наташа"}, {"Игнат"}})
+	m, err := Do(context.Background(), []User{{"John"}, {"Bob"}, {"Alice"}, {"Richard"}})
 	fmt.Println("time:", time.Since(start))
 	fmt.Println(m, err)
 }
@@ -90,7 +90,7 @@ import (
 
 func main() {
 	start := time.Now()
-	m, err := Do(context.Background(), []User{{"Паша"}, {"Яша"}, {"Наташа"}, {"Игнат"}})
+	m, err := Do(context.Background(), []User{{"John"}, {"Bob"}, {"Alice"}, {"Richard"}})
 	fmt.Println("time:", time.Since(start))
 	fmt.Println(m, err)
 }
@@ -185,7 +185,7 @@ import (
 
 func main() {
 	start := time.Now()
-	m, err := Do(context.Background(), []User{{"Паша"}, {"Яша"}, {"Наташа"}, {"Игнат"}})
+	m, err := Do(context.Background(), []User{{"John"}, {"Bob"}, {"Alice"}, {"Richard"}})
 	fmt.Println("time:", time.Since(start))
 	fmt.Println(m, err)
 }
